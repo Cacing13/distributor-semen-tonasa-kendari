@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" width="420" height="560" role="img" aria-label="Sak Semen Tonasa PCC 40 kg">
+  <defs>
+    <linearGradient id="bag" x1="0.08" y1="0" x2="0.92" y2="1">
+      <stop offset="0" stop-color="#EF3138"/>
+      <stop offset="0.45" stop-color="#D71E25"/>
+      <stop offset="1" stop-color="#A10F16"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="0.26" stop-color="#FFFFFF" stop-opacity="0.03"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.84" stop-color="#000000" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.24"/>
+    </linearGradient>
+    <clipPath id="bagClip">
+      <path d="M66 128C66 96 104 78 210 78C316 78 354 96 354 128L370 414C374 458 322 484 210 484C98 484 46 458 50 414Z"/>
+    </clipPath>
+    <style>
+      .t { font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+    </style>
+  </defs>
+
+  <ellipse cx="210" cy="505" rx="144" ry="19" fill="#1B0A0C" opacity="0.10"/>
+
+  <g clip-path="url(#bagClip)">
+    <rect width="420" height="560" fill="url(#bag)"/>
+
+    <!-- brand band -->
+    <rect y="204" width="420" height="150" fill="#FDFCFA"/>
+
+    <!-- upper copy -->
+    <text class="t" x="212" y="166" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="3.4" fill="#FFFFFF" opacity="0.9">PORTLAND COMPOSITE CEMENT</text>
+    <path d="M126 184h168" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="1.4"/>
+
+    <!-- brand lockup -->
+    <text class="t" x="214" y="249" text-anchor="middle" font-size="23" font-weight="600" letter-spacing="13" fill="#C8102E">SEMEN</text>
+    <text class="t" x="210" y="312" text-anchor="middle" font-size="59" font-weight="800" letter-spacing="-1.2" fill="#C8102E">TONASA</text>
+
+    <!-- weight row -->
+    <rect x="116" y="325" width="76" height="28" rx="14" fill="#C8102E"/>
+    <text class="t" x="154" y="344" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.8" fill="#FFFFFF">PCC</text>
+    <text class="t" x="283" y="345" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.6" fill="#14203C">40 KG</text>
+
+    <!-- lower copy -->
+    <text class="t" x="210" y="444" text-anchor="middle" font-size="10.5" font-weight="600" letter-spacing="2.6" fill="#FFFFFF" opacity="0.62">PRODUK ASLI · SNI 7064</text>
+    <text class="t" x="210" y="466" text-anchor="middle" font-size="9.5" font-weight="500" letter-spacing="2" fill="#FFFFFF" opacity="0.4">DISTRIBUTOR KENDARI</text>
+
+    <!-- fabric folds -->
+    <path d="M98 92c-8 120-10 258 1 378" stroke="#000000" stroke-opacity="0.10" stroke-width="18" fill="none"/>
+    <path d="M328 96c9 118 11 254 1 372" stroke="#000000" stroke-opacity="0.09" stroke-width="15" fill="none"/>
+    <path d="M60 112c40-22 258-22 298 0" stroke="#6E0A10" stroke-opacity="0.35" stroke-width="3" fill="none"/>
+    <path d="M58 132c42-20 260-20 302 0" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="2" fill="none"/>
+
+    <rect width="420" height="560" fill="url(#sheen)"/>
+  </g>
+
+  <path d="M66 128C66 96 104 78 210 78C316 78 354 96 354 128L370 414C374 458 322 484 210 484C98 484 46 458 50 414Z" fill="none" stroke="#7A0A10" stroke-opacity="0.28" stroke-width="2"/>
+</svg>
